@@ -1,5 +1,6 @@
 from DPATrialClass import DPATrial
 
+# generate graph by DPA method
 def generate_graph_DPA(n, m):
     DPAtrial = DPATrial(m)
     g_graph_2 = {}
