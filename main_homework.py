@@ -11,4 +11,4 @@ if __name__ == "__main__":
     print(f"N:{n}| M:{m}")
 
     # Task Num_4
-    g_graph_2 = generate_graph_DPA(n, m)
+    g_graph_2 = ucc.convert_gg2bg(generate_graph_DPA(n, m))
