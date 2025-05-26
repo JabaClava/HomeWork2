@@ -1,7 +1,7 @@
-def rationing(slov):
+def rationing(slov, n):
     result = {}
 
     for deg, count in slov.items():
-        result[deg] = count / 27770
+        result[deg] = count / n
 
     return result

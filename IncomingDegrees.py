@@ -18,5 +18,5 @@ def incomingDegrees(G):
     for i, j in result.items():
         summ += j
 
-    result[0] = 27770 - summ
+    result[0] = len(G) - summ
     return result
