@@ -13,8 +13,10 @@ def incomingDegrees(G):
             result[deg] += 1
         else:
             result[deg] = 1
+
     summ = 0
     for i, j in result.items():
         summ += j
+
     result[0] = 27770 - summ
     return result
