@@ -38,5 +38,5 @@ if __name__ == "__main__":
     # Task Num_4
     print("Start Task 4:")
     g_graph_2 = ucc.convert_gg2bg(generate_graph_DPA(n, m))
-    in_deg_3 = rationing(incomingDegrees(G), len(G))
+    in_deg_3 = rationing(incomingDegrees(g_graph_2), len(g_graph_2))
     graphPlot(in_deg_3)
