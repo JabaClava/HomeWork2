@@ -44,8 +44,6 @@ if __name__ == "__main__":
     print("Start Task 4:")
     g_graph_2 = ucc.convert_gg2bg(generate_graph_DPA(n, m))
     in_deg_3 = rationing(incomingDegrees(g_graph_2), len(g_graph_2))
-    graphPlot(in_deg_3)
-    in_deg_3 = rationing(incomingDegrees(G), len(G))
     graphPlot(in_deg_3, "Random Graph 2")
 
     plt.legend()
