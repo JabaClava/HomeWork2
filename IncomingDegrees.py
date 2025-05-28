@@ -1,3 +1,4 @@
+#counting incoming degrees
 def incomingDegrees(G):
     in_deg = {}
     result = {}

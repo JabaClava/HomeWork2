@@ -2,7 +2,7 @@ import random
 
 from Graph2lists import graph2lists
 
-
+#random generation graph
 def ER(n, p):
     V = [i for i in range(n)]
     E = []

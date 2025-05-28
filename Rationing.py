@@ -1,3 +1,4 @@
+#The rationing function
 def rationing(slov, n):
     result = {}
 
